@@ -1,0 +1,77 @@
+:root {
+  /*COLOR VARIABLEA=========================================================*/
+  --color-primary: var(--color-gradient-pink);
+  --color-secondary: var(--color-purple);
+  --color-tertiary: var(--color-blue-background);
+
+  --color-white: #FFF;
+  --color-black: #000000;
+  --color-white-gray:#D9D9D9;
+
+  --color-purple: #8715e4;
+  --color-purple-light: #8715e480;
+  --color-purple-gradient: linear-gradient(
+    to bottom,
+    rgba(128, 0, 128, 1),
+    rgba(230, 34, 116, 1),
+    rgba(249, 206, 0, 1)
+  );
+
+  --color-yellow: #F9CE00;
+
+  --color-border-primary:  var(--color-pink-purple), var(--color-pink), var(--color-yellow);
+  
+  --color-pink-purple: #800080;
+  --color-pink: #E62274;
+
+  --color-button-gradient: linear-gradient(90deg, #8715E4 0%, #800080 100%);
+
+  --color-blue-light: rgba(53, 59, 95, 1);
+  --color-blue-medium: #22284f;
+  --color-blue-deep: #11152e;
+  --color-blue-background: #030720;
+  --color-blue-form: #11152e;
+  --color-blue-card: #030720;
+  --color-blue-card-light: #11152E;
+  --color-blue-button: #01051F;
+  --color-blue-button-border:#353B5F;
+  
+  --color-gray-card: #373d60;
+  --color-gray-border: #3a3f5a;
+
+  --color-text-primary: var(--color-white);
+  --color-tex-secondary: var(--color-black);
+  --color-text-tertiary: var(--color-white);
+
+
+  /**FONT VARIABLE==========================================================*/
+  --font-primary-en: var(--Baloo2);
+  --font-secondary-en: var(--Montserrat-Regular);
+  
+  --Baloo2: 'Baloo2-Regular', sans-serif;
+  --Baloo2-Regular: 'Baloo2-Regular', sans-serif;
+  --Baloo2-SemiBold: 'Baloo2-SemiBold', sans-serif;
+  --Baloo2-Bold: 'Baloo2-Bold', sans-serif;
+  --Baloo2-ExtraBold: 'Baloo2-ExtraBold', sans-serif;
+
+  --Montserrat-Regular: 'Montserrat-Regular', sans-serif;
+  --Montserrat-ExtraLight: 'Montserrat-ExtraLight', sans-serif;
+  --Montserrat-Light: 'Montserrat-Light', sans-serif;
+  --Montserrat-SemiBold: 'Montserrat-SemiBold', sans-serif;
+  --Montserrat-Bold: 'Montserrat-Bold', sans-serif;
+
+  --font-size-title: 45px;
+  --font-size-xxl: 38px;
+  --font-size-xl: 30px;
+  --font-size-large: 24px;
+  --font-size-medium: 20px;
+  --font-size-small: 16px;
+  --font-size-xsml: 12px;
+  --font-size-tertiary: 14px;
+
+
+  --font-weight-bold: 700;
+  --font-weight-light: 500;
+  
+  
+}

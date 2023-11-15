@@ -1,0 +1,136 @@
+@import '../../themes/variables.css';
+
+.banner-container {
+    position: relative;
+    width: 100%;
+    max-width: 1600px;
+    min-height: 900px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    width: 100%;
+    max-width: 1600px;
+    min-height: 900px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background .wall {
+    position: absolute;
+    width: auto;
+    height: auto;
+    z-index: -2;
+}
+
+.top-effect {
+    position: absolute;
+    right: 0px;
+    top: 0;
+}
+
+.bottom-effect {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.banner-content {
+    position: relative;
+    display: flex;
+    justify-content: right;
+}
+
+.banner-right {
+    position: absolute;
+    right: 0;
+    justify-content: right;
+    align-items: center;
+}
+
+.banner-left {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    max-width: 615px;
+    height: auto;
+}
+
+.button{
+    margin-top: 15px;
+}
+
+
+/* Tablet View ==============================================*/
+@media only screen and (max-width: 1200px) {
+    .banner-container {
+            position: relative;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    }
+
+    #logo-brain {
+        width: 110%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+}
+
+
+/* Mobile View =====================================================*/
+@media only screen and (max-width: 599px) {
+
+
+    .background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -2;
+        width: 100%;
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+    }
+
+    .banner-left {
+        position: relative;
+    }
+
+    .banner-content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-right {
+        max-width: 90%;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    #logo-brain{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+}

@@ -1,0 +1,38 @@
+@import 'variables.css';
+
+.primary-button {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    width: 220px;
+    min-height: 63px;
+    height: auto;
+    color: var(--color-white);
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 77px;
+    background-image: var(--color-button-gradient);
+    font-family: var(--Montserrat-Bold);
+    box-shadow: none;
+    box-shadow: 0 15px 24px rgba(230, 34, 116, 0.3);
+}
+
+    
+
+
+/* Mobile View========================================== */
+@media only screen and (max-width: 599px) {
+    .primary-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 140px;
+        font-size: 10px;
+        min-height: 50px;
+        height: auto;
+        border-radius: 35px;
+        box-shadow: 0 8px 12px rgba(230, 34, 116, 0.3);
+    }
+}

@@ -1,0 +1,82 @@
+@import 'themes/variables.css';
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+    gap: 28px;
+
+    width: 263px;
+    height: 244px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    background: #11152E;
+}
+
+.card-title{
+    color: var(--color-white);
+    text-align: center;
+    font-family: var(--Baloo2-Bold);
+    font-size: 45px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.card-description{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--color-white);
+    text-align: center;
+    font-family: var(--font-primary-en);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    /* 207.143% */
+}
+
+
+
+
+
+/* Mobile View ============================================== */
+@media only screen and (max-width: 599px) {
+
+.card-container {
+    flex-direction: column;
+    padding: 3px;
+}
+
+
+.card {
+    padding: 25px;
+    gap: 10px;
+    border-radius: 12px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.card-description {
+    font-size: 14 px;
+    font-weight: 200;
+    line-height: 14px;
+}
+
+}
